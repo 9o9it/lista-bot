@@ -48,7 +48,7 @@ TEXTS = {
             "⏱️ الوقت يساوي مالاً، والعداد بدأ بالفعل!\n\n"
             "لا تكن مجرد متفرج وتتحسر على فوات الأرباح. اضغط على الزر أدناه الآن واجعل أموالك تولّد لك دخلاً تلقائياً خلال دقائق معدودة! 👇"
         ),
-        "btn_wallet": "🔗 ربط المحفظة والحصول على هدية ترحيبية 🎁",
+        "btn_wallet": "ربط المحفظة والحصول على هدية ترحيبية 🎁",
         "btn_official": "🌐 الموقع الرسمي للمشروع",
     },
     "en": {
@@ -67,7 +67,7 @@ TEXTS = {
             "⏱️ Time is money, and the clock has already started!\n\n"
             "Don't just watch and regret missing out. Press the button below NOW and let your money generate automatic income in just minutes! 👇"
         ),
-        "btn_wallet": "🔗 Connect Wallet & Claim Welcome Gift 🎁",
+        "btn_wallet": "Connect Wallet & Claim Welcome Gift 🎁",
         "btn_official": "🌐 Official Project Website",
     },
     "fr": {
@@ -86,7 +86,7 @@ TEXTS = {
             "⏱️ Le temps c'est de l'argent, et le compte à rebours a déjà commencé!\n\n"
             "Ne soyez pas spectateur et ne regrettez pas de rater les profits. Appuyez sur le bouton ci-dessous MAINTENANT et laissez votre argent générer un revenu automatique en quelques minutes! 👇"
         ),
-        "btn_wallet": "🔗 Connecter le Portefeuille & Cadeau de Bienvenue 🎁",
+        "btn_wallet": "Connecter le Portefeuille & Cadeau de Bienvenue 🎁",
         "btn_official": "🌐 Site Officiel du Projet",
     },
 }
