@@ -88,7 +88,30 @@
 ---
 
 ## ملاحظات هامة
-- البوت يعمل 24/7 على Render وRailway
+- البوت يعمل 24/7 على Railway
+- Render المجاني يوقف التطبيق بعد 15 دقيقة بدون نشاط
 - PythonAnywhere المجاني يعمل فقط لفترات محدودة
 - تأكد من إبقاء الـ Token سرياً
 - يمكنك مراقبة البوت من لوحة تحكم المنصة
+
+---
+
+## حل مشكلة التوقف على Render (مهم)
+
+Render المجاني يوقف التطبيق بعد 15 دقيقة بدون نشاط. الحل:
+
+### استخدام UptimeRobot (مجاني)
+1. اذهب إلى https://uptimerobot.com
+2. سجل حساب مجاني
+3. اضغط "Add New Monitor"
+4. املأ الإعدادات:
+   - **Monitor Type**: HTTP(s)
+   - **URL**: رابط Render الخاص بك (مثال: https://lista-bot.onrender.com)
+   - **Monitoring Interval**: 5 minutes
+5. اضغط "Create Monitor"
+
+هذا سيبقي البوت نشطاً دائماً عن طريق إرسال طلب كل 5 دقائق.
+
+### بدائل UptimeRobot:
+- cron-job.org (مجاني)
+- Healthchecks.io (مجاني)
